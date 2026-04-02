@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik Choubey | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Karthik Choubey, Computer Science Engineering Student and Aspiring Full Stack Developer.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="progress-bar"></div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-particles" id="particles"></div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">KC<span>.</span></a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal fade-up">
+            <h2 class="greeting">Hello, I'm</h2>
+            <h1 class="name">Karthik Choubey</h1>
+            <h3 class="title">Computer Science Engineering Student <span class="highlight">|</span> Aspiring Full Stack
+                Developer</h3>
+            <p class="tagline">“Passionate about building intelligent web applications and exploring AI-driven
+                solutions.”</p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects <i class="fas fa-arrow-right"></i></a>
+                <a href="https://github.com/slimkong25" target="_blank" class="btn icon-btn"><i
+                        class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/karthik-choubey" target="_blank" class="btn icon-btn linkedin-btn"><i
+                        class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+
+            <div class="hero-contact">
+                <a href="mailto:karthik25ayu@gmail.com" class="contact-item"><i class="fas fa-envelope"></i>
+                    karthik25ayu@gmail.com</a>
+                <span class="contact-item"><i class="fas fa-phone-alt"></i> +91 8247516340</span>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down bounce"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container reveal fade-up">
+            <div class="section-title">
+                <h2>About <span>Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content glass-panel">
+                <div class="about-text">
+                    <p>Karthik Choubey is a Computer Science Engineering student at Lovely Professional University with
+                        a strong interest in software development, AI applications, and web technologies.</p>
+                    <p>He enjoys building practical solutions that improve accessibility and user interaction through
+                        modern web platforms. With experience in multiple programming languages and full-stack
+                        development concepts, he continuously works on improving his problem-solving skills and
+                        technical expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container reveal fade-up">
+            <div class="section-title">
+                <h2>My <span>Skills</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category glass-card reveal slide-up" style="--delay: 1">
+                    <div class="category-icon"><i class="fas fa-code"></i></div>
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">C</span>
+                        <span class="tag">Java</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card reveal slide-up" style="--delay: 2">
+                    <div class="category-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card reveal slide-up" style="--delay: 3">
+                    <div class="category-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">LeetCode</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card reveal slide-up" style="--delay: 4">
+                    <div class="category-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Core Concepts</h3>
+                    <div class="skill-tags">
+                        <span class="tag">OOP</span>
+                        <span class="tag">Data Structures</span>
+                        <span class="tag">Problem Solving</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card reveal slide-up" style="--delay: 5">
+                    <div class="category-icon"><i class="fas fa-users"></i></div>
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Team Collaboration</span>
+                        <span class="tag">Communication</span>
+                        <span class="tag">Leadership</span>
+                        <span class="tag">Quick Learner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container reveal fade-up">
+            <div class="section-title">
+                <h2>Featured <span>Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card reveal zoom-in" style="--delay: 1">
+                    <div class="project-image gradient-bg-1">
+                        <i class="fas fa-robot project-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Medi Bot – Wellness Guide AI Chatbot</h3>
+                        <p class="project-desc">An AI-powered healthcare chatbot that allows users to ask medical
+                            queries, track wellness insights, and receive guidance through an interactive conversational
+                            interface. The project focuses on simplifying access to health-related information through a
+                            user-friendly interface and efficient query processing.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/slimkong25/medibot-wellness-guide" target="_blank"
+                                class="glow-link"><i class="fab fa-github"></i> View Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card reveal zoom-in" style="--delay: 2">
+                    <div class="project-image gradient-bg-2">
+                        <i class="fas fa-heartbeat project-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Med Con – Healthcare Consultation</h3>
+                        <p class="project-desc">A healthcare consultation web platform designed to improve accessibility
+                            to structured medical information and services. It features a responsive interface and
+                            backend logic that manages user requests efficiently while ensuring smooth navigation and
+                            user experience.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/slimkong25/medconproject" target="_blank" class="glow-link"><i
+                                    class="fab fa-github"></i> View Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container reveal fade-up">
+            <div class="section-title">
+                <h2>My <span>Education</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">Aug 2023 – Present</div>
+                        <h3>Lovely Professional University</h3>
+                        <h4 class="location">Phagwara, Punjab</h4>
+                        <p class="degree">B.Tech Computer Science Engineering</p>
+                        <p class="highlight-text">CGPA: 5.48</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">Intermediate</div>
+                        <h3>Narayana Junior College</h3>
+                        <h4 class="location">Kukatpally, Telangana</h4>
+                        <p class="degree">Intermediate (PCM)</p>
+                        <p class="highlight-text">Percentage: 96.5%</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal slide-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-date">Matriculation</div>
+                        <h3>Little Angels High School</h3>
+                        <h4 class="location">Kothur, Telangana</h4>
+                        <p class="degree">Matriculation</p>
+                        <p class="highlight-text">Percentage: 92%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container reveal fade-up">
+            <div class="section-title">
+                <h2>Certifications</h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="cert-grid">
+                <div class="cert-card glass-panel reveal fade-up" style="--delay: 1">
+                    <div class="cert-icon"><i class="fas fa-award"></i></div>
+                    <div class="cert-details">
+                        <h3>Master Generative AI</h3>
+                        <p class="issuer">Udemy</p>
+                        <span class="cert-date">Aug 2025</span>
+                    </div>
+                </div>
+
+                <div class="cert-card glass-panel reveal fade-up" style="--delay: 2">
+                    <div class="cert-icon"><i class="fas fa-server"></i></div>
+                    <div class="cert-details">
+                        <h3>Introduction to Hardware and Operating Systems</h3>
+                        <p class="issuer">Coursera</p>
+                        <span class="cert-date">Sep 2024</span>
+                    </div>
+                </div>
+
+                <div class="cert-card glass-panel reveal fade-up" style="--delay: 3">
+                    <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+                    <div class="cert-details">
+                        <h3>Responsive Web Design</h3>
+                        <p class="issuer">FreeCodeCamp</p>
+                        <span class="cert-date">Nov 2023</span>
+                    </div>
+                </div>
+
+                <div class="cert-card glass-panel reveal fade-up" style="--delay: 4">
+                    <div class="cert-icon"><i class="fas fa-file-code"></i></div>
+                    <div class="cert-details">
+                        <h3>Object-Oriented Programming using C++</h3>
+                        <p class="issuer">Cipher Schools</p>
+                        <span class="cert-date">Jun 2025 – Jul 2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container reveal fade-up">
+            <div class="section-title">
+                <h2>Get In <span>Touch</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info glass-card reveal slide-left">
+                    <h3>Let's Connect</h3>
+                    <p>I am always open to discussing web development projects, AI ideas, or partnership opportunities.
+                    </p>
+
+                    <ul class="contact-list">
+                        <li>
+                            <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                            <div class="info-text">
+                                <span>Email</span>
+                                <a href="mailto:karthik25ayu@gmail.com">karthik25ayu@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box"><i class="fab fa-github"></i></div>
+                            <div class="info-text">
+                                <span>GitHub</span>
+                                <a href="https://github.com/slimkong25" target="_blank">github.com/slimkong25</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-box"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="info-text">
+                                <span>LinkedIn</span>
+                                <a href="https://linkedin.com/in/karthik-choubey"
+                                    target="_blank">linkedin.com/in/karthik-choubey</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-container glass-card reveal slide-right">
+                    <form id="contact-form" class="contact-form">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Your Email</label>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" required placeholder=" " rows="4"></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="input-line"></div>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/slimkong25" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/karthik-choubey" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:karthik25ayu@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2026 Karthik Choubey. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Vanilla Tilt for 3D Hover Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+</body>
+
+</html>
