@@ -446,6 +446,9 @@ img {
 }
 
 .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
     background: rgba(255, 255, 255, 0.05);
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -489,6 +492,10 @@ img {
 
 .gradient-bg-2 {
     background: linear-gradient(135deg, #10b981, #3b82f6);
+}
+
+.gradient-bg-3 {
+    background: linear-gradient(135deg, #f59e0b, #ef4444);
 }
 
 .project-icon {
@@ -619,6 +626,7 @@ img {
     color: var(--accent-glow);
     font-weight: 600;
 }
+
 
 /* --- Certificates Section --- */
 .cert-grid {
