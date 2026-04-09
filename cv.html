@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik Choubey | CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .cv-page {
+            padding-top: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .cv-viewer-container {
+            width: 100%;
+            max-width: 900px;
+            height: 75vh;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--glass-shadow);
+            border: 1px solid var(--glass-border);
+            margin-bottom: 2rem;
+            background: #fff;
+            /* better contrast for pdf */
+        }
+
+        .cv-viewer {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .download-btn-container {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar"
+        style="padding: 1rem 0; background: rgba(11, 12, 16, 0.85); backdrop-filter: blur(15px); border-bottom: 1px solid var(--glass-border);">
+        <div class="nav-container"
+            style="max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center;">
+            <a href="index.html" class="logo">KC<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="btn icon-btn" style="padding: 0.5rem 1rem;">Back to Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CV Section -->
+    <section class="cv-page">
+        <div class="container reveal fade-up"
+            style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+            <div class="section-title">
+                <h2>My <span>CV</span></h2>
+                <div class="underline"></div>
+            </div>
+
+            <div class="cv-viewer-container">
+                <!-- Fallback link in case iframe fails for mobile -->
+                <iframe src="assets/cv.pdf" class="cv-viewer"></iframe>
+            </div>
+
+            <div class="download-btn-container">
+                <a href="assets/cv.pdf" download="Karthik_Choubey_CV.pdf" class="btn primary-btn"
+                    style="font-size: 1.1rem; padding: 0.9rem 2.2rem;">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vanilla Tilt for general JS consistency if needed, though not strictly required here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+</body>
+
+</html>
